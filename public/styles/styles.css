@@ -33,3 +33,79 @@
 
   background: #FFFFFF;
 }
+
+
+
+/* HeroLayout1/NavBar */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 20px;
+
+position: relative;
+width: 1440px;
+height: 93px;
+
+/* Grayscale/White */
+
+background: #FFFFFF;
+
+
+/* HeroLayout2 */
+
+
+position: relative;
+width: 1440px;
+height: 858px;
+
+
+
+/* Features2x2 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px 160px;
+
+position: relative;
+width: 1440px;
+height: 740px;
+
+/* colors/background/tertiary */
+
+background: #EFF0F0;
+
+
+/* MarketingFooter */
+
+
+position: relative;
+width: 1440px;
+height: 400px;
+
+
+
+/* FAQItem */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 133px;
