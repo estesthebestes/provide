@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [
-		'./pages/**/*.{js,ts,jsx,tsx, html}',
-		'./components/**/*.{js,ts,jsx,tsx, html}',
-	],
-
-	darkMode: 'class',
-
-	theme: {
-		extend: {},
+	content: {
+		relative: true,
+		files: ['/public/index.html'],
+		theme: {
+			screens: {
+				sm: '480px',
+				md: '768px',
+				lg: '976px',
+				xl: '1440px',
+			},
+		},
+		plugins: [],
 	},
-	plugins: [],
 };
