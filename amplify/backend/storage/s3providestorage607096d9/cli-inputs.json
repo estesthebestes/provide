@@ -1,0 +1,10 @@
+{
+  "resourceName": "s3providestorage607096d9",
+  "bucketName": "provide-storage-607096d9",
+  "policyUUID": "eb0efa00",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ]
+}
