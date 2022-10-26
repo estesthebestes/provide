@@ -1,14 +1,15 @@
+import { render } from '@testing-library/react';
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+import TopNav from './components/topNav';
 
 function App() {
-	return (
-		<div className='root'>
-			<div className='App'>
-				<h1 class='text-3xl font-bold underline'>Hello world!</h1>
-			</div>
-		</div>
-	);
+	render();
+	{
+		return;
+	}
 }
-
 export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
