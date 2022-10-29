@@ -1,13 +1,15 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import TopNav from './components/topNav';
 
 function App() {
-	render();
 	{
-		return;
+		return (
+			<div>
+				<TopNav />
+			</div>
+		);
 	}
 }
 export default App;
