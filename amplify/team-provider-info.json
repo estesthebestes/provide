@@ -9,11 +9,24 @@
       "UnauthRoleName": "amplify-amplify5257ed5dd06d4-staging-193756-unauthRole",
       "StackName": "amplify-amplify5257ed5dd06d4-staging-193756",
       "StackId": "arn:aws:cloudformation:us-east-1:443278612940:stack/amplify-amplify5257ed5dd06d4-staging-193756/b282c6c0-50ae-11ed-8f99-0a161640e103",
-      "AmplifyAppId": "d23o0fyug7vjgf"
+      "AmplifyAppId": "d23o0fyug7vjgf",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplify5257ed5dd06d4-staging-193756-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "provide": {}
+      },
+      "function": {
+        "provide45a17f62": {
+          "deploymentBucketName": "amplify-amplify5257ed5dd06d4-staging-193756-deployment",
+          "s3Key": "amplify-builds/provide45a17f62-6369556e536849364e4a-build.zip"
+        }
+      },
+      "storage": {
+        "s3providestorage607096d9": {}
+      },
+      "api": {
+        "rest": {}
       }
     }
   }
